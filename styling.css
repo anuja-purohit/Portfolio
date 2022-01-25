@@ -1,0 +1,349 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-boxs;}
+html{font-size: 24pxs;}
+.headings{
+    font-family: roboto;
+    color: black;
+    font-size: 36px;
+}
+.F1{
+    background-color: black;
+    font-family: Roboto;
+    height: 1.5vh;
+    color: white;
+    display: flex;
+    justify-content: end;
+    gap: 5vw;
+    padding-right: 8vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.F2{
+    display: flex;
+    height: 98.5vh;
+}
+.F2part1{
+    display: flex;
+    width: 50vw;
+}
+.F2part2{
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content:center;
+    width: 50vw;
+    padding-top: 33vh;
+}
+
+.pattern1{ 
+    position: absolute;
+    width: 0.05vw;
+    height: 0.05vh;
+    left: 85vw;
+    top: 13vh;
+}
+.pattern2{ 
+    position: absolute;
+    width: 0.05vw;
+    height: 0.05vw;
+    left: 45.5vw;
+    top: 40vw;
+}
+.F2part1content{
+    display: flex;
+    flex-direction:column;
+    padding-top: 20vh;
+    padding-left: 10vw;
+    padding-bottom: 5vh;
+}
+.text1,.text2,.text3{
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;}
+.text2{
+    color: #9E56F9;
+    }
+.text3{
+    font-family: Poppins;
+    font-size: 18px;
+}
+.buttons{
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    gap: 5vw;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: #9E56F9; 
+    color: white; 
+    border: 2px solid #9E56F9;
+  }
+  
+  .button1:hover {
+    background-color: #626462;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #0a0a0a;
+  }
+  
+  .button2:hover {
+    background-color: #626462;
+    color: white;
+  }
+
+
+.F3{
+    display: flex;
+    justify-content: flex-start;
+    height: 98.5vh;
+}
+.F3part1{
+    display: flex;
+    height: 98.5vh;
+    width: 45vw;
+}
+.F3part2{ 
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    padding-left: 5vw;
+    height: 78vh;
+    width: 55vw;
+}
+.F3part1content{
+    background-color:#C4C4C4;
+    height: 60vh;
+    width: 30vw;
+    border-end-end-radius: 100%;
+}
+.F3part1picture{
+    position: absolute;
+    padding-top: 18vh;
+    padding-left: 10vw;
+}
+.pattern3{ 
+    position: absolute;
+    width: 0.05vw;
+    height: 0.05vw;
+    left: 30vw;
+    top: 115vh;
+}
+.text4,.text5,.text6
+{
+    font-family: inter;
+    font-style: normal;
+    font-weight: normal;
+}
+.text4{font-size: 30px;
+    line-height: 36px;}
+.text5{ font-size: 25px;
+    line-height: 36px;
+    }
+.text6{
+    display: flex;
+    width: 45vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text6part1{
+    font-size: 50px;
+    line-height: 36px;
+    color:  #9E56F9;
+}
+.text6part2{
+    font-size: 20px;
+    line-height: 36px;
+    color:black;
+}
+.text6part3{
+    font-size: 50px;
+    line-height: 36px;
+    color:  #9E56F9;
+}
+.text6part4{
+    font-size: 20px;
+    line-height: 36px;
+}
+.getbutton{display: flex;
+    width: 20vw;
+    height: 5vw;
+    left: 50vw;
+    top: 80vw;
+}
+.getin{
+    background-color: #9E56F9; 
+    color: white; 
+}
+
+.F4{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;   
+    height: 90vh;
+}
+.F4head,.F5head,.F6head
+{display: flex; 
+    justify-content: center;
+    padding-top: 5vh;
+    height: 5vh;
+    width: 100vw;
+    font-size: 25px;
+    line-height: 36px;
+}
+.F4cards{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5vh;
+    justify-content: space-around;
+    height: 60vh;
+    width: 100vw;
+   
+    font-size: 36px;
+}
+.F4part1,.F4part2,.F4part3{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    padding-top: 20vh;
+    padding-left: 2vw;
+    height: 30vh;
+    width: 20vw;
+    background-color:#C4C4C4;
+   
+}
+.F4cc1,.F4cc2,.F4cc3,.F4c2c1,.F4c2c2,.F4c2c3,.F4c3c1,.F4c3c2,.F4c3c3{
+    display: flex;
+    flex-direction: column;
+}
+.F4cc3,.F4c2c3,.F4c3c3,.F4c2c4{
+    color:  #9E56F9;
+    font-size: 18px;
+}
+.F5{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+   
+    height: 100vh;
+}
+.F5head{display: flex; 
+    justify-content: center;
+    height: 5vh;
+    width: 100vw;
+    font-size: 25px;
+    line-height: 36px;
+}
+.F5cards{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5vh;
+    justify-content: space-around;
+    width: 100vw;
+}
+.F5card1,.F5card2,.F5card3{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-top: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+    width: 20vw;
+    background-color:#C4C4C4;
+}
+.card5content1,.card5content2,.card5content3,.card5content4{
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 18px;
+}
+.card5content2{
+    padding-top: 3vh;
+}
+.card5content4{
+    color: #9E56F9;
+}
+.F6{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 100vh;
+}
+.F6parts{
+    display: flex;
+    flex-direction: row;
+}
+
+.F6part1{
+    display: flex;
+    padding-left: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 90vw;
+    height: 60vh;
+}
+.formtext1,.formtext2,.formtext3,.formtext4,.formtext5,.formlabel1,.formlabel2,.formlabel3,.formlabel4{
+    display: flex;  
+}
+.F6form{
+    display: flex;
+    flex-direction: column;
+}
+.F6part2{
+    display: flex;
+    background-color: #C4C4C4;
+    height: 60vh;
+    width: 20vw;
+    border-radius: 300px 0 0 300px;
+}
+.pattern4{
+    position:absolute;
+    top: 450vh;
+}
+.F7{
+    display: flex;
+    flex-direction: column;
+    height: 20vw;
+    background-color: #C4C4C4;
+    padding-top: 5vh;
+}
+.F7part1,.F7part2,.F7part3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 8vh;
+    width: 100vw;
+}
+.fa {
+    padding: 20px;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    
+  }
+.fa-facebook,.fa-twitter,.fa-linkedin,.fa-instagram 
+{color: black;}
+
+.finalb{
+    background-color: #9E56F9; 
+    color: white; 
+}
